@@ -6,6 +6,7 @@ const auteurRoutes = require("./routes/auteurRoutes");
 const app = express();
 
 //Synchronisation de la BD
+console.log("je suis sur le dev et BD");
 sequelize
   .sync()
   .then(() => {
